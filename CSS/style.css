@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+}
+
+.banner_header{
+    background: url('https://www.hdcarwallpapers.com/walls/2018_lexus_lc_500h_4k-HD.jpg') center/ cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner_header::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+}
+
+.banner_header::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, #fff, transparent);
+    left: 0;
+    bottom: 0;
+}
+
+
+.banner_header2{
+    background: url('https://i.artfile.ru/2560x1594_1297474_[www.ArtFile.ru].jpg') center/ cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner_header2::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+}
+
+.banner_header2::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, lime, transparent);
+    left: 0;
+    bottom: 0;
+}
+
+.banner_header3{
+    background: url('https://i.pinimg.com/originals/3c/a2/5f/3ca25faa85a6204206623a88544928dd.jpg') center/ cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner_header3::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+}
+
+.banner_header3::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, yellow, transparent);
+    left: 0;
+    bottom: 0;
+}
+
+.banner_header4{
+    background: url('https://www.slashgear.com/wp-content/uploads/2017/04/2018-lexus-ls-500-first-drive-8.jpg') center/ cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner_header4::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+}
+
+.banner_header4::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, blue, transparent);
+    left: 0;
+    bottom: 0;
+}
+
+
+.banner_header5{
+    background: url('https://images.wallpaperscraft.ru/image/lexus_is_krasnyj_vid_sboku_107757_2560x1080.jpg') center/ cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner_header5::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+}
+
+.banner_header5::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, red, transparent);
+    left: 0;
+    bottom: 0;
+}
+
+.center_header{
+    width: 80%;
+    margin: auto;
+}
+
+.inline_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.inline_header::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+}
+
+.inline_header ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding: 20px 0;
+}
+
+.left_list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.left_list{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+
+.right_list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.right_list{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.logo{
+    position: relative;
+}
+
+.logo li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+.title{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;position: relative;
+}
+
+.title h1{
+    font-size: 50px;
+    color: white;
+}
+
+.title p{
+    color: white;
+    width: 600px;
+    font-size: 20px;
+}
+
+.links{
+    margin-top: 40px;
+}
+
+.links a{
+    color: black;
+    background-color: white;
+    padding: 15px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+.toggleIcon li a{
+    text-decoration: none;
+}
+
+.toggleIcon2 li a{
+    text-decoration: none;
+}
+
+.toggleIcon3 li a{
+    text-decoration: none;
+}
+
+.toggleIcon4 li a{
+    text-decoration: none;
+}
+
+.toggleIcon5 li a{
+    text-decoration: none;
+}
+
+.toggleIcon2 li a i{
+    color: lime;
+    font-size: 25px;
+    display: none;
+}
+
+.toggleIcon3 li a i{
+    color: yellow;
+    font-size: 25px;
+    display: none;
+}
+
+.toggleIcon4 li a i{
+    color: blue;
+    font-size: 25px;
+    display: none;
+}
+
+.toggleIcon5 li a i{
+    color: red;
+    font-size: 25px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:662px){
+    .title p{
+        width: 100%;
+    }
+
+    .banner_header::after{
+        content: '';
+        height: 50px;
+    }
+
+    .left_list{
+        display: none;
+    }
+
+    .right_list{
+        display: none;
+    }
+
+    .toggleIcon li a i{
+        display: block;
+    }
+
+    .toggleIcon2 li a i{
+        display: block;
+    }
+
+    .toggleIcon3 li a i{
+        display: block;
+    }
+
+    .toggleIcon4 li a i{
+        display: block;
+    }
+
+    .toggleIcon5 li a i{
+        display: block;
+    }
+}
